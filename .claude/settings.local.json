@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(java -version)",
+      "Bash(mvn -version)",
+      "Bash(npm -v)",
+      "Bash(docker -v)",
+      "Bash(psql --version)",
+      "Bash(curl -sL -o maven.zip https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.zip)",
+      "Bash(unzip -q maven.zip)",
+      "Bash(./apache-maven-3.9.9/bin/mvn -version)",
+      "Bash(curl -sL -o maven.zip https://archive.apache.org/dist/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.zip)",
+      "Bash(unzip -q -o maven.zip)",
+      "Bash(tee /dev/stderr)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(rm -f society-maintenance-tracker.zip)",
+      "Bash(zip -r society-maintenance-tracker.zip . -x */node_modules/* */target/* */dist/* *.log .env */.git/* society-maintenance-tracker.zip)",
+      "Bash(awk '{print $5, $9}')",
+      "Bash(unzip -l society-maintenance-tracker.zip)",
+      "Bash(taskkill //F //IM java.exe)",
+      "Bash(awk '{print $5}')",
+      "Bash(cmd //c \"mvnw.cmd -v\")",
+      "Bash(sh mvnw -v)",
+      "Bash(awk '{print $5,$9}')",
+      "Bash(python -c \"import base64;open\\('t.png','wb'\\).write\\(base64.b64decode\\('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+M8AAAMBAQDJ/pLvAAAAAElFTkSuQmCC'\\)\\)\")",
+      "Bash(curl -s http://localhost:8090/uploads/a3ad7add-0e23-4765-9438-3df8a0de103d.png)",
+      "Bash(break)"
+    ]
+  }
+}
